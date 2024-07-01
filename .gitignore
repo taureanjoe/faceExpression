@@ -17,3 +17,10 @@ __pycache__/
 
 # Logs
 *.log
+
+# Ignore large data files
+data/*.csv
+data/*.zip
+
+# Ignore model checkpoints
+models/*.h5
